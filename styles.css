@@ -146,6 +146,14 @@ p::before {
   padding: 0;
 }
 
+
+button:hover{
+  cursor: pointer;
+  background-color: #2a2a40;
+  color: #d0d0d5;
+  border-radius: 5px;
+}
+
 button {
   display: block;
   margin: 40px auto;
@@ -154,6 +162,8 @@ button {
   font-size: 23px;
   background: #d0d0d5;
   border: 3px solid #3b3b4f;
+  color: #2a2a40;
+  border-radius: 5px;
 }
 
 footer {
